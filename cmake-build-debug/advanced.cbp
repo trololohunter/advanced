@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="advanced"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vover/CLionProjects/advanced/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vover/CLionProjects/advanced/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vover/CLionProjects/advanced/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="advanced">
+				<Option output="/home/vover/CLionProjects/advanced/cmake-build-debug/advanced" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vover/CLionProjects/advanced/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 advanced"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="advanced/fast">
+				<Option output="/home/vover/CLionProjects/advanced/cmake-build-debug/advanced" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vover/CLionProjects/advanced/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 advanced/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vover/CLionProjects/advanced/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vover/CLionProjects/advanced/Subspace_Iteration.cpp">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/Subspace_Iteration.h">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.cpp">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.h">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/main.cpp">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/matrix.cpp">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/matrix.h">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
