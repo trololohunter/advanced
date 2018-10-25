@@ -130,17 +130,17 @@ CMakeFiles/advanced.dir/Subspace_Iteration.cpp.o.provides.build: CMakeFiles/adva
 
 
 CMakeFiles/advanced.dir/math_vector.cpp.o: CMakeFiles/advanced.dir/flags.make
-CMakeFiles/advanced.dir/math_vector.cpp.o: math_vector.cpp
+CMakeFiles/advanced.dir/math_vector.cpp.o: ../math_vector.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/advanced.dir/math_vector.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/advanced.dir/math_vector.cpp.o -c /home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/advanced.dir/math_vector.cpp.o -c /home/vover/CLionProjects/advanced/math_vector.cpp
 
 CMakeFiles/advanced.dir/math_vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/advanced.dir/math_vector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.cpp > CMakeFiles/advanced.dir/math_vector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vover/CLionProjects/advanced/math_vector.cpp > CMakeFiles/advanced.dir/math_vector.cpp.i
 
 CMakeFiles/advanced.dir/math_vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/advanced.dir/math_vector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.cpp -o CMakeFiles/advanced.dir/math_vector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vover/CLionProjects/advanced/math_vector.cpp -o CMakeFiles/advanced.dir/math_vector.cpp.s
 
 CMakeFiles/advanced.dir/math_vector.cpp.o.requires:
 

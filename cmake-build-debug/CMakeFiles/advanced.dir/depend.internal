@@ -4,13 +4,15 @@
 CMakeFiles/advanced.dir/Subspace_Iteration.cpp.o
  /home/vover/CLionProjects/advanced/Subspace_Iteration.cpp
  /home/vover/CLionProjects/advanced/Subspace_Iteration.h
+ /home/vover/CLionProjects/advanced/math_vector.h
 CMakeFiles/advanced.dir/main.cpp.o
- /home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.h
+ /home/vover/CLionProjects/advanced/Subspace_Iteration.h
  /home/vover/CLionProjects/advanced/main.cpp
+ /home/vover/CLionProjects/advanced/math_vector.h
  /home/vover/CLionProjects/advanced/matrix.h
 CMakeFiles/advanced.dir/math_vector.cpp.o
- /home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.cpp
- /home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.h
+ /home/vover/CLionProjects/advanced/math_vector.cpp
+ /home/vover/CLionProjects/advanced/math_vector.h
 CMakeFiles/advanced.dir/matrix.cpp.o
  /home/vover/CLionProjects/advanced/matrix.cpp
  /home/vover/CLionProjects/advanced/matrix.h

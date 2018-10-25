@@ -9,7 +9,7 @@ double norm (const std::vector<double> &v) {
 
     double res = 0;
 
-    for (uint64_t i = 0; i < v.size(); ++i)
+    for (size_t i = 0; i < v.size(); ++i)
         res += v[i] * v[i];
 
     return sqrt(res);
@@ -20,7 +20,7 @@ std::vector<double> Myltiply_Coef (const std::vector<double> &a, double coef) {
 
     std::vector<double> ans;
 
-    for (uint64_t i = 0; i < a.size(); ++i)
+    for (size_t i = 0; i < a.size(); ++i)
         ans.push_back(a[i] * coef);
 
     return ans;
@@ -32,7 +32,7 @@ double scalar_product (const std::vector<double> &v1, const std::vector<double> 
 
     if (v1.size() != v2.size()) exit(40);
 
-    for (uint64_t i = 0; i < v1.size(); ++i)
+    for (size_t i = 0; i < v1.size(); ++i)
         res += v1[i] * v2[i];
 
     return res;
@@ -51,7 +51,7 @@ std::vector<double> Proection (const std::vector<double> &a, const std::vector<d
 }
 
 void print_vector(const std::vector<double> &v) {
-    uint64_t i;
+    size_t i;
 
     printf("\n\n");
     for (i = 0; i < v.size(); ++i)

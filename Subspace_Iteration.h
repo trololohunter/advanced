@@ -8,19 +8,22 @@
 
 #include <cstdint>
 #include <vector>
+#include <cstdio>
 
 class Subspace_Iteration {
 public:
-    uint8_t  size;
-    uint64_t vector_size;
+    size_t  size;
+    size_t vector_size;
 
     std::vector<std::vector<double>> Coordinate;
 
-    Subspace_Iteration();
-    ~Subspace_Iteration();
+    Subspace_Iteration() {};
+    ~Subspace_Iteration() {};
 
-    void Sub_Iter_resize(uint8_t m, uint64_t n);
+    void resize(size_t m, size_t n);
     void Orthogonalization ();
+    void print() const;
+    friend bool equal (const Subspace_Iteration &A, const Subspace_Iteration &B);
 };
 
 

@@ -7,13 +7,13 @@
 #include <iostream>
 #include "matrix.h"
 
-Matrix::Matrix(uint64_t n) {
+Matrix::Matrix(size_t n) {
     size = n;
     Column_Index.resize(n);
     Data.resize(n);
 }
 
-void Matrix::Matrix_resize(uint64_t n) {
+void Matrix::Matrix_resize(size_t n) {
 
     Column_Index.clear();
     Data.clear();
@@ -25,7 +25,7 @@ void Matrix::Matrix_resize(uint64_t n) {
 
 std::vector<double> Matrix::Matrix_multiply_vector(const std::vector<double> &v) const {
     if (v.size() != size) exit(20);
-    uint64_t i, j;
+    size_t i, j;
     double res;
     std::vector<double> ans;
 
@@ -40,7 +40,7 @@ std::vector<double> Matrix::Matrix_multiply_vector(const std::vector<double> &v)
 }
 
 void Matrix::print() const {
-    uint64_t i, j, k;
+    size_t i, j, k;
     double a = 0;
     for (i = 0; i < size; ++i) {
         k = 0;
@@ -56,13 +56,13 @@ void Matrix::print() const {
     }
 }
 
-void Matrix::Add_El(uint64_t i, uint64_t j, double data) {
+void Matrix::Add_El(size_t i, size_t j, double data) {
 
     if ((i > size) || (j > size)) exit(10);
 
     auto it = Column_Index[i].begin();
     auto itt = Data[i].begin();
-    uint64_t k = 0;
+    size_t k = 0;
 
     for (; it < Column_Index[i].end(); ++it, ++k) {
         if (j > *it) continue;
@@ -90,7 +90,7 @@ void Matrix::Add_El(uint64_t i, uint64_t j, double data) {
 }
 
 void Matrix::print_data() const{
-    uint64_t i, j;
+    size_t i, j;
     for (i = 0; i < size; ++i) {
         for (j = 0; j < Column_Index[i].size(); ++j)
             printf ("%d %e \t", Column_Index[i][j], Data[i][j]);

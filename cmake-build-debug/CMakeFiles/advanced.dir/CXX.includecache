@@ -7,25 +7,19 @@
 #IncludeRegexTransform: 
 
 /home/vover/CLionProjects/advanced/Subspace_Iteration.cpp
+zconf.h
+-
 Subspace_Iteration.h
 /home/vover/CLionProjects/advanced/Subspace_Iteration.h
+math_vector.h
+/home/vover/CLionProjects/advanced/math_vector.h
 
 /home/vover/CLionProjects/advanced/Subspace_Iteration.h
 cstdint
 -
 vector
 -
-
-/home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.cpp
-math_vector.h
-/home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.h
-
-/home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.h
-vector
--
-cstdint
--
-tgmath.h
+cstdio
 -
 
 /home/vover/CLionProjects/advanced/main.cpp
@@ -33,8 +27,22 @@ iostream
 -
 matrix.h
 /home/vover/CLionProjects/advanced/matrix.h
-cmake-build-debug/math_vector.h
-/home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.h
+Subspace_Iteration.h
+/home/vover/CLionProjects/advanced/Subspace_Iteration.h
+math_vector.h
+/home/vover/CLionProjects/advanced/math_vector.h
+
+/home/vover/CLionProjects/advanced/math_vector.cpp
+math_vector.h
+/home/vover/CLionProjects/advanced/math_vector.h
+
+/home/vover/CLionProjects/advanced/math_vector.h
+vector
+-
+cstdint
+-
+tgmath.h
+-
 
 /home/vover/CLionProjects/advanced/matrix.cpp
 cstdio

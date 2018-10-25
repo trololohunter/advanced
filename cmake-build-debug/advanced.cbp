@@ -90,13 +90,13 @@
 		<Unit filename="/home/vover/CLionProjects/advanced/Subspace_Iteration.h">
 			<Option target="advanced"/>
 		</Unit>
-		<Unit filename="/home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.cpp">
-			<Option target="advanced"/>
-		</Unit>
-		<Unit filename="/home/vover/CLionProjects/advanced/cmake-build-debug/math_vector.h">
-			<Option target="advanced"/>
-		</Unit>
 		<Unit filename="/home/vover/CLionProjects/advanced/main.cpp">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/math_vector.cpp">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/math_vector.h">
 			<Option target="advanced"/>
 		</Unit>
 		<Unit filename="/home/vover/CLionProjects/advanced/matrix.cpp">

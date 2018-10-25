@@ -3,4 +3,4 @@ project(advanced)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(advanced main.cpp matrix.cpp matrix.h Subspace_Iteration.cpp Subspace_Iteration.h cmake-build-debug/math_vector.h cmake-build-debug/math_vector.cpp)
+add_executable(advanced main.cpp matrix.cpp matrix.h Subspace_Iteration.cpp Subspace_Iteration.h math_vector.cpp matrix.cpp)
