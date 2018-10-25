@@ -17,19 +17,15 @@ class Matrix {
     uint64_t size;
 
 public:
-    Matrix ();
+    Matrix () {};
     Matrix (uint64_t n);
-    ~Matrix()
-    {
-        Column_Index.clear();
-        Data.clear();
-    }
+    ~Matrix() {};
 
     void Matrix_resize (uint64_t n);
     void Add_El (uint64_t i, uint64_t j, double data);
-    std::vector<double> Matrix_multiply_vector (const std::vector<double> &v);
-    void print();
-    void print_data();
+    std::vector<double> Matrix_multiply_vector (const std::vector<double> &v) const;
+    void print() const;
+    void print_data() const;
 };
 
 

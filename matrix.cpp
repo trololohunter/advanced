@@ -15,10 +15,6 @@ Matrix::Matrix(uint64_t n) {
 
 void Matrix::Matrix_resize(uint64_t n) {
 
-    for (int i = 0; i < size; ++i) {
-        Column_Index[i].clear();
-        Data[i].clear();
-    }
     Column_Index.clear();
     Data.clear();
 
@@ -27,7 +23,7 @@ void Matrix::Matrix_resize(uint64_t n) {
     Data.resize(n);
 }
 
-std::vector<double> Matrix::Matrix_multiply_vector(const std::vector<double> &v) {
+std::vector<double> Matrix::Matrix_multiply_vector(const std::vector<double> &v) const {
     if (v.size() != size) exit(20);
     uint64_t i, j;
     double res;
@@ -43,7 +39,7 @@ std::vector<double> Matrix::Matrix_multiply_vector(const std::vector<double> &v)
     return ans;
 }
 
-void Matrix::print() {
+void Matrix::print() const {
     uint64_t i, j, k;
     double a = 0;
     for (i = 0; i < size; ++i) {
@@ -73,13 +69,13 @@ void Matrix::Add_El(uint64_t i, uint64_t j, double data) {
         break;
     }
 
-    if ((!Column_Index[i].empty()) && (j == *it)) exit(30);
-
     if (it == Column_Index[i].end()) {
         Column_Index[i].push_back(j);
         Data[i].push_back(data);
         return;
     }
+
+    if ((!Column_Index[i].empty()) && (j == *it)) exit(30);
 
     Column_Index[i].insert(it,j);
 
@@ -93,7 +89,7 @@ void Matrix::Add_El(uint64_t i, uint64_t j, double data) {
     return;
 }
 
-void Matrix::print_data() {
+void Matrix::print_data() const{
     uint64_t i, j;
     for (i = 0; i < size; ++i) {
         for (j = 0; j < Column_Index[i].size(); ++j)

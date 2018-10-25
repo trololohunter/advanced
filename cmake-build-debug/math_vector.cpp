@@ -5,7 +5,7 @@
 
 #include "math_vector.h"
 
-double norm (std::vector<double> v) {
+double norm (const std::vector<double> &v) {
 
     double res = 0;
 
@@ -16,7 +16,7 @@ double norm (std::vector<double> v) {
 
 }
 
-std::vector<double> Myltiply_Coef (std::vector<double> a, double coef) {
+std::vector<double> Myltiply_Coef (const std::vector<double> &a, double coef) {
 
     std::vector<double> ans;
 
@@ -26,7 +26,7 @@ std::vector<double> Myltiply_Coef (std::vector<double> a, double coef) {
     return ans;
 }
 
-double scalar_product (std::vector<double> v1, std::vector<double> v2) {
+double scalar_product (const std::vector<double> &v1, const std::vector<double> &v2) {
 
     double res = 0;
 
@@ -38,7 +38,7 @@ double scalar_product (std::vector<double> v1, std::vector<double> v2) {
     return res;
 }
 
-std::vector<double> Proection (std::vector<double> a, std::vector<double> b) {
+std::vector<double> Proection (const std::vector<double> &a, const std::vector<double> &b) {
     if (a.size() != b.size()) exit(40);
 
     std::vector<double> ans(a.size(),0);
@@ -50,7 +50,7 @@ std::vector<double> Proection (std::vector<double> a, std::vector<double> b) {
     return ans;
 }
 
-void print_vector(std::vector<double> v) {
+void print_vector(const std::vector<double> &v) {
     uint64_t i;
 
     printf("\n\n");
