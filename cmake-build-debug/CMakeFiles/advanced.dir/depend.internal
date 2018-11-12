@@ -5,8 +5,11 @@ CMakeFiles/advanced.dir/Subspace_Iteration.cpp.o
  /home/vover/CLionProjects/advanced/Subspace_Iteration.cpp
  /home/vover/CLionProjects/advanced/Subspace_Iteration.h
  /home/vover/CLionProjects/advanced/math_vector.h
+CMakeFiles/advanced.dir/constructionW_row.cpp.o
+ /home/vover/CLionProjects/advanced/constructionW_row.cpp
 CMakeFiles/advanced.dir/main.cpp.o
  /home/vover/CLionProjects/advanced/Subspace_Iteration.h
+ /home/vover/CLionProjects/advanced/constructionW_row.h
  /home/vover/CLionProjects/advanced/main.cpp
  /home/vover/CLionProjects/advanced/math_vector.h
  /home/vover/CLionProjects/advanced/matrix.h
@@ -16,3 +19,6 @@ CMakeFiles/advanced.dir/math_vector.cpp.o
 CMakeFiles/advanced.dir/matrix.cpp.o
  /home/vover/CLionProjects/advanced/matrix.cpp
  /home/vover/CLionProjects/advanced/matrix.h
+CMakeFiles/advanced.dir/tridiagmatrix.cpp.o
+ /home/vover/CLionProjects/advanced/tridiagmatrix.cpp
+ /home/vover/CLionProjects/advanced/tridiagmatrix.h

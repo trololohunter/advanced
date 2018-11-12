@@ -90,6 +90,12 @@
 		<Unit filename="/home/vover/CLionProjects/advanced/Subspace_Iteration.h">
 			<Option target="advanced"/>
 		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/constructionW_row.cpp">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/constructionW_row.h">
+			<Option target="advanced"/>
+		</Unit>
 		<Unit filename="/home/vover/CLionProjects/advanced/main.cpp">
 			<Option target="advanced"/>
 		</Unit>
@@ -103,6 +109,12 @@
 			<Option target="advanced"/>
 		</Unit>
 		<Unit filename="/home/vover/CLionProjects/advanced/matrix.h">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/tridiagmatrix.cpp">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/tridiagmatrix.h">
 			<Option target="advanced"/>
 		</Unit>
 		<Unit filename="/home/vover/CLionProjects/advanced/CMakeLists.txt">

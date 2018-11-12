@@ -153,12 +153,62 @@ CMakeFiles/advanced.dir/math_vector.cpp.o.provides: CMakeFiles/advanced.dir/math
 CMakeFiles/advanced.dir/math_vector.cpp.o.provides.build: CMakeFiles/advanced.dir/math_vector.cpp.o
 
 
+CMakeFiles/advanced.dir/constructionW_row.cpp.o: CMakeFiles/advanced.dir/flags.make
+CMakeFiles/advanced.dir/constructionW_row.cpp.o: ../constructionW_row.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/advanced.dir/constructionW_row.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/advanced.dir/constructionW_row.cpp.o -c /home/vover/CLionProjects/advanced/constructionW_row.cpp
+
+CMakeFiles/advanced.dir/constructionW_row.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/advanced.dir/constructionW_row.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vover/CLionProjects/advanced/constructionW_row.cpp > CMakeFiles/advanced.dir/constructionW_row.cpp.i
+
+CMakeFiles/advanced.dir/constructionW_row.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/advanced.dir/constructionW_row.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vover/CLionProjects/advanced/constructionW_row.cpp -o CMakeFiles/advanced.dir/constructionW_row.cpp.s
+
+CMakeFiles/advanced.dir/constructionW_row.cpp.o.requires:
+
+.PHONY : CMakeFiles/advanced.dir/constructionW_row.cpp.o.requires
+
+CMakeFiles/advanced.dir/constructionW_row.cpp.o.provides: CMakeFiles/advanced.dir/constructionW_row.cpp.o.requires
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/constructionW_row.cpp.o.provides.build
+.PHONY : CMakeFiles/advanced.dir/constructionW_row.cpp.o.provides
+
+CMakeFiles/advanced.dir/constructionW_row.cpp.o.provides.build: CMakeFiles/advanced.dir/constructionW_row.cpp.o
+
+
+CMakeFiles/advanced.dir/tridiagmatrix.cpp.o: CMakeFiles/advanced.dir/flags.make
+CMakeFiles/advanced.dir/tridiagmatrix.cpp.o: ../tridiagmatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/advanced.dir/tridiagmatrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/advanced.dir/tridiagmatrix.cpp.o -c /home/vover/CLionProjects/advanced/tridiagmatrix.cpp
+
+CMakeFiles/advanced.dir/tridiagmatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/advanced.dir/tridiagmatrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vover/CLionProjects/advanced/tridiagmatrix.cpp > CMakeFiles/advanced.dir/tridiagmatrix.cpp.i
+
+CMakeFiles/advanced.dir/tridiagmatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/advanced.dir/tridiagmatrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vover/CLionProjects/advanced/tridiagmatrix.cpp -o CMakeFiles/advanced.dir/tridiagmatrix.cpp.s
+
+CMakeFiles/advanced.dir/tridiagmatrix.cpp.o.requires:
+
+.PHONY : CMakeFiles/advanced.dir/tridiagmatrix.cpp.o.requires
+
+CMakeFiles/advanced.dir/tridiagmatrix.cpp.o.provides: CMakeFiles/advanced.dir/tridiagmatrix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/tridiagmatrix.cpp.o.provides.build
+.PHONY : CMakeFiles/advanced.dir/tridiagmatrix.cpp.o.provides
+
+CMakeFiles/advanced.dir/tridiagmatrix.cpp.o.provides.build: CMakeFiles/advanced.dir/tridiagmatrix.cpp.o
+
+
 # Object files for target advanced
 advanced_OBJECTS = \
 "CMakeFiles/advanced.dir/main.cpp.o" \
 "CMakeFiles/advanced.dir/matrix.cpp.o" \
 "CMakeFiles/advanced.dir/Subspace_Iteration.cpp.o" \
-"CMakeFiles/advanced.dir/math_vector.cpp.o"
+"CMakeFiles/advanced.dir/math_vector.cpp.o" \
+"CMakeFiles/advanced.dir/constructionW_row.cpp.o" \
+"CMakeFiles/advanced.dir/tridiagmatrix.cpp.o"
 
 # External object files for target advanced
 advanced_EXTERNAL_OBJECTS =
@@ -167,9 +217,11 @@ advanced: CMakeFiles/advanced.dir/main.cpp.o
 advanced: CMakeFiles/advanced.dir/matrix.cpp.o
 advanced: CMakeFiles/advanced.dir/Subspace_Iteration.cpp.o
 advanced: CMakeFiles/advanced.dir/math_vector.cpp.o
+advanced: CMakeFiles/advanced.dir/constructionW_row.cpp.o
+advanced: CMakeFiles/advanced.dir/tridiagmatrix.cpp.o
 advanced: CMakeFiles/advanced.dir/build.make
 advanced: CMakeFiles/advanced.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable advanced"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable advanced"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/advanced.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +233,8 @@ CMakeFiles/advanced.dir/requires: CMakeFiles/advanced.dir/main.cpp.o.requires
 CMakeFiles/advanced.dir/requires: CMakeFiles/advanced.dir/matrix.cpp.o.requires
 CMakeFiles/advanced.dir/requires: CMakeFiles/advanced.dir/Subspace_Iteration.cpp.o.requires
 CMakeFiles/advanced.dir/requires: CMakeFiles/advanced.dir/math_vector.cpp.o.requires
+CMakeFiles/advanced.dir/requires: CMakeFiles/advanced.dir/constructionW_row.cpp.o.requires
+CMakeFiles/advanced.dir/requires: CMakeFiles/advanced.dir/tridiagmatrix.cpp.o.requires
 
 .PHONY : CMakeFiles/advanced.dir/requires
 

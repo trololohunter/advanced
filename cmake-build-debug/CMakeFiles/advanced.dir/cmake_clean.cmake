@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/advanced.dir/matrix.cpp.o"
   "CMakeFiles/advanced.dir/Subspace_Iteration.cpp.o"
   "CMakeFiles/advanced.dir/math_vector.cpp.o"
+  "CMakeFiles/advanced.dir/constructionW_row.cpp.o"
+  "CMakeFiles/advanced.dir/tridiagmatrix.cpp.o"
   "advanced.pdb"
   "advanced"
 )

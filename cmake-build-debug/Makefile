@@ -150,6 +150,33 @@ Subspace_Iteration.cpp.s:
 	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/Subspace_Iteration.cpp.s
 .PHONY : Subspace_Iteration.cpp.s
 
+constructionW_row.o: constructionW_row.cpp.o
+
+.PHONY : constructionW_row.o
+
+# target to build an object file
+constructionW_row.cpp.o:
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/constructionW_row.cpp.o
+.PHONY : constructionW_row.cpp.o
+
+constructionW_row.i: constructionW_row.cpp.i
+
+.PHONY : constructionW_row.i
+
+# target to preprocess a source file
+constructionW_row.cpp.i:
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/constructionW_row.cpp.i
+.PHONY : constructionW_row.cpp.i
+
+constructionW_row.s: constructionW_row.cpp.s
+
+.PHONY : constructionW_row.s
+
+# target to generate assembly for a file
+constructionW_row.cpp.s:
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/constructionW_row.cpp.s
+.PHONY : constructionW_row.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -231,6 +258,33 @@ matrix.cpp.s:
 	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/matrix.cpp.s
 .PHONY : matrix.cpp.s
 
+tridiagmatrix.o: tridiagmatrix.cpp.o
+
+.PHONY : tridiagmatrix.o
+
+# target to build an object file
+tridiagmatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/tridiagmatrix.cpp.o
+.PHONY : tridiagmatrix.cpp.o
+
+tridiagmatrix.i: tridiagmatrix.cpp.i
+
+.PHONY : tridiagmatrix.i
+
+# target to preprocess a source file
+tridiagmatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/tridiagmatrix.cpp.i
+.PHONY : tridiagmatrix.cpp.i
+
+tridiagmatrix.s: tridiagmatrix.cpp.s
+
+.PHONY : tridiagmatrix.s
+
+# target to generate assembly for a file
+tridiagmatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/tridiagmatrix.cpp.s
+.PHONY : tridiagmatrix.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,6 +297,9 @@ help:
 	@echo "... Subspace_Iteration.o"
 	@echo "... Subspace_Iteration.i"
 	@echo "... Subspace_Iteration.s"
+	@echo "... constructionW_row.o"
+	@echo "... constructionW_row.i"
+	@echo "... constructionW_row.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -252,6 +309,9 @@ help:
 	@echo "... matrix.o"
 	@echo "... matrix.i"
 	@echo "... matrix.s"
+	@echo "... tridiagmatrix.o"
+	@echo "... tridiagmatrix.i"
+	@echo "... tridiagmatrix.s"
 .PHONY : help
 
 

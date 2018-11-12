@@ -9,6 +9,10 @@
 /home/vover/CLionProjects/advanced/Subspace_Iteration.cpp
 zconf.h
 -
+ctime
+-
+random
+-
 Subspace_Iteration.h
 /home/vover/CLionProjects/advanced/Subspace_Iteration.h
 math_vector.h
@@ -22,6 +26,14 @@ vector
 cstdio
 -
 
+/home/vover/CLionProjects/advanced/constructionW_row.cpp
+cmath
+-
+cstdio
+-
+
+/home/vover/CLionProjects/advanced/constructionW_row.h
+
 /home/vover/CLionProjects/advanced/main.cpp
 iostream
 -
@@ -31,6 +43,8 @@ Subspace_Iteration.h
 /home/vover/CLionProjects/advanced/Subspace_Iteration.h
 math_vector.h
 /home/vover/CLionProjects/advanced/math_vector.h
+constructionW_row.h
+/home/vover/CLionProjects/advanced/constructionW_row.h
 
 /home/vover/CLionProjects/advanced/math_vector.cpp
 math_vector.h
@@ -58,5 +72,13 @@ vector
 cstdint
 -
 cstdlib
+-
+
+/home/vover/CLionProjects/advanced/tridiagmatrix.cpp
+tridiagmatrix.h
+/home/vover/CLionProjects/advanced/tridiagmatrix.h
+
+/home/vover/CLionProjects/advanced/tridiagmatrix.h
+vector
 -
 

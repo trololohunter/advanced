@@ -5,7 +5,10 @@ CMakeFiles/advanced.dir/Subspace_Iteration.cpp.o: ../Subspace_Iteration.cpp
 CMakeFiles/advanced.dir/Subspace_Iteration.cpp.o: ../Subspace_Iteration.h
 CMakeFiles/advanced.dir/Subspace_Iteration.cpp.o: ../math_vector.h
 
+CMakeFiles/advanced.dir/constructionW_row.cpp.o: ../constructionW_row.cpp
+
 CMakeFiles/advanced.dir/main.cpp.o: ../Subspace_Iteration.h
+CMakeFiles/advanced.dir/main.cpp.o: ../constructionW_row.h
 CMakeFiles/advanced.dir/main.cpp.o: ../main.cpp
 CMakeFiles/advanced.dir/main.cpp.o: ../math_vector.h
 CMakeFiles/advanced.dir/main.cpp.o: ../matrix.h
@@ -15,4 +18,7 @@ CMakeFiles/advanced.dir/math_vector.cpp.o: ../math_vector.h
 
 CMakeFiles/advanced.dir/matrix.cpp.o: ../matrix.cpp
 CMakeFiles/advanced.dir/matrix.cpp.o: ../matrix.h
+
+CMakeFiles/advanced.dir/tridiagmatrix.cpp.o: ../tridiagmatrix.cpp
+CMakeFiles/advanced.dir/tridiagmatrix.cpp.o: ../tridiagmatrix.h
 

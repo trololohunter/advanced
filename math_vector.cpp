@@ -16,7 +16,7 @@ double norm (const std::vector<double> &v) {
 
 }
 
-std::vector<double> Myltiply_Coef (const std::vector<double> &a, double coef) {
+std::vector<double> Multiply_Coef (const std::vector<double> &a, double coef) {
 
     std::vector<double> ans;
 
@@ -38,14 +38,14 @@ double scalar_product (const std::vector<double> &v1, const std::vector<double> 
     return res;
 }
 
-std::vector<double> Proection (const std::vector<double> &a, const std::vector<double> &b) {
+std::vector<double> Projection (const std::vector<double> &a, const std::vector<double> &b) {
     if (a.size() != b.size()) exit(40);
 
     std::vector<double> ans(a.size(),0);
     double coef;
 
     coef = scalar_product(a,b) / scalar_product(b,b);
-    ans = Myltiply_Coef(b, coef);
+    ans = Multiply_Coef(b, coef);
 
     return ans;
 }
