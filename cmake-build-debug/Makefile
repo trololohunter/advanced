@@ -123,6 +123,33 @@ advanced/fast:
 	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/build
 .PHONY : advanced/fast
 
+ChafiInfante_equation.o: ChafiInfante_equation.cpp.o
+
+.PHONY : ChafiInfante_equation.o
+
+# target to build an object file
+ChafiInfante_equation.cpp.o:
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o
+.PHONY : ChafiInfante_equation.cpp.o
+
+ChafiInfante_equation.i: ChafiInfante_equation.cpp.i
+
+.PHONY : ChafiInfante_equation.i
+
+# target to preprocess a source file
+ChafiInfante_equation.cpp.i:
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.i
+.PHONY : ChafiInfante_equation.cpp.i
+
+ChafiInfante_equation.s: ChafiInfante_equation.cpp.s
+
+.PHONY : ChafiInfante_equation.s
+
+# target to generate assembly for a file
+ChafiInfante_equation.cpp.s:
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.s
+.PHONY : ChafiInfante_equation.cpp.s
+
 Subspace_Iteration.o: Subspace_Iteration.cpp.o
 
 .PHONY : Subspace_Iteration.o
@@ -294,6 +321,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... advanced"
+	@echo "... ChafiInfante_equation.o"
+	@echo "... ChafiInfante_equation.i"
+	@echo "... ChafiInfante_equation.s"
 	@echo "... Subspace_Iteration.o"
 	@echo "... Subspace_Iteration.i"
 	@echo "... Subspace_Iteration.s"

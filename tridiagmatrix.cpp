@@ -3,6 +3,7 @@
 //
 
 #include "tridiagmatrix.h"
+#include <cstdlib>
 
 tridiagmatrix::tridiagmatrix()
 {
@@ -64,6 +65,26 @@ std::vector<double> tridiagmatrix::multiply_vector(const std::vector<double> &v)
     x[n-1] = a[n-1] * v[n-1] + c[n-2] * v[n-2];
 
     return x;
+}
+
+int tridiagmatrix::Add_El(int i, int j, double data) {
+    if (abs(j - i) > 1) return -1;
+    if (i > n-1 || j > n-1) return -2;
+
+    if (i == j) {
+        a[i] = data;
+        return 1;
+    }
+    if (i > j && j < n-1) {
+        c[i-1] = data;
+        return 2;
+    }
+    if (j > i && i < n-2) {
+        b[i] = data;
+        return 3;
+    }
+
+    return -3;
 }
 
 

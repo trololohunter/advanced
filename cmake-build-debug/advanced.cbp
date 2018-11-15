@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/vover/CLionProjects/advanced/ChafiInfante_equation.cpp">
+			<Option target="advanced"/>
+		</Unit>
+		<Unit filename="/home/vover/CLionProjects/advanced/ChafiInfante_equation.h">
+			<Option target="advanced"/>
+		</Unit>
 		<Unit filename="/home/vover/CLionProjects/advanced/Subspace_Iteration.cpp">
 			<Option target="advanced"/>
 		</Unit>
