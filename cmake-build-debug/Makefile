@@ -123,32 +123,32 @@ advanced/fast:
 	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/build
 .PHONY : advanced/fast
 
-ChafiInfante_equation.o: ChafiInfante_equation.cpp.o
+ChafeInfante_equation.o: ChafeInfante_equation.cpp.o
 
-.PHONY : ChafiInfante_equation.o
+.PHONY : ChafeInfante_equation.o
 
 # target to build an object file
-ChafiInfante_equation.cpp.o:
-	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o
-.PHONY : ChafiInfante_equation.cpp.o
+ChafeInfante_equation.cpp.o:
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o
+.PHONY : ChafeInfante_equation.cpp.o
 
-ChafiInfante_equation.i: ChafiInfante_equation.cpp.i
+ChafeInfante_equation.i: ChafeInfante_equation.cpp.i
 
-.PHONY : ChafiInfante_equation.i
+.PHONY : ChafeInfante_equation.i
 
 # target to preprocess a source file
-ChafiInfante_equation.cpp.i:
-	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.i
-.PHONY : ChafiInfante_equation.cpp.i
+ChafeInfante_equation.cpp.i:
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.i
+.PHONY : ChafeInfante_equation.cpp.i
 
-ChafiInfante_equation.s: ChafiInfante_equation.cpp.s
+ChafeInfante_equation.s: ChafeInfante_equation.cpp.s
 
-.PHONY : ChafiInfante_equation.s
+.PHONY : ChafeInfante_equation.s
 
 # target to generate assembly for a file
-ChafiInfante_equation.cpp.s:
-	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.s
-.PHONY : ChafiInfante_equation.cpp.s
+ChafeInfante_equation.cpp.s:
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.s
+.PHONY : ChafeInfante_equation.cpp.s
 
 Subspace_Iteration.o: Subspace_Iteration.cpp.o
 
@@ -321,9 +321,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... advanced"
-	@echo "... ChafiInfante_equation.o"
-	@echo "... ChafiInfante_equation.i"
-	@echo "... ChafiInfante_equation.s"
+	@echo "... ChafeInfante_equation.o"
+	@echo "... ChafeInfante_equation.i"
+	@echo "... ChafeInfante_equation.s"
 	@echo "... Subspace_Iteration.o"
 	@echo "... Subspace_Iteration.i"
 	@echo "... Subspace_Iteration.s"

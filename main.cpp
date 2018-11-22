@@ -1,6 +1,7 @@
 #include <iostream>
 #include "matrix.h"
 #include "Subspace_Iteration.h"
+#include "ChafeInfante_equation.h"
 
 #define SIZE 6
 
@@ -8,11 +9,12 @@
 #include "constructionW_row.h"
 
 
+
 int main() {
 
-    Subspace_Iteration A;
-    A.resize(5,5);
-    A.initial_value();
+    ChafeInfante_equation A;
+    A.resize(10);
+    A.solver();
 
     std::cout << "Hello, World!" << std::endl;
     return 0;

@@ -6,6 +6,30 @@
 
 #IncludeRegexTransform: 
 
+/home/vover/CLionProjects/advanced/ChafeInfante_equation.cpp
+string
+-
+sstream
+-
+fstream
+-
+iostream
+-
+ChafeInfante_equation.h
+/home/vover/CLionProjects/advanced/ChafeInfante_equation.h
+math_vector.h
+/home/vover/CLionProjects/advanced/math_vector.h
+
+/home/vover/CLionProjects/advanced/ChafeInfante_equation.h
+vector
+-
+cstdlib
+-
+math.h
+-
+tridiagmatrix.h
+/home/vover/CLionProjects/advanced/tridiagmatrix.h
+
 /home/vover/CLionProjects/advanced/Subspace_Iteration.cpp
 zconf.h
 -
@@ -41,6 +65,8 @@ matrix.h
 /home/vover/CLionProjects/advanced/matrix.h
 Subspace_Iteration.h
 /home/vover/CLionProjects/advanced/Subspace_Iteration.h
+ChafeInfante_equation.h
+/home/vover/CLionProjects/advanced/ChafeInfante_equation.h
 math_vector.h
 /home/vover/CLionProjects/advanced/math_vector.h
 constructionW_row.h
@@ -77,8 +103,12 @@ cstdlib
 /home/vover/CLionProjects/advanced/tridiagmatrix.cpp
 tridiagmatrix.h
 /home/vover/CLionProjects/advanced/tridiagmatrix.h
+cstdlib
+-
 
 /home/vover/CLionProjects/advanced/tridiagmatrix.h
 vector
+-
+cstdlib
 -
 

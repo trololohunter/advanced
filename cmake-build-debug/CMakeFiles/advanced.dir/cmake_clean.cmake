@@ -5,7 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/advanced.dir/math_vector.cpp.o"
   "CMakeFiles/advanced.dir/constructionW_row.cpp.o"
   "CMakeFiles/advanced.dir/tridiagmatrix.cpp.o"
-  "CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o"
+  "CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o"
   "advanced.pdb"
   "advanced"
 )

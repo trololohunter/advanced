@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vover/CLionProjects/advanced/ChafiInfante_equation.cpp" "/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o"
+  "/home/vover/CLionProjects/advanced/ChafeInfante_equation.cpp" "/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o"
   "/home/vover/CLionProjects/advanced/Subspace_Iteration.cpp" "/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles/advanced.dir/Subspace_Iteration.cpp.o"
   "/home/vover/CLionProjects/advanced/constructionW_row.cpp" "/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles/advanced.dir/constructionW_row.cpp.o"
   "/home/vover/CLionProjects/advanced/main.cpp" "/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles/advanced.dir/main.cpp.o"

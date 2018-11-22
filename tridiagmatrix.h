@@ -6,6 +6,7 @@
 #define ADVANCED_TRIDIAGMATRIX_H
 
 #include <vector>
+#include <cstdlib>
 
 class tridiagmatrix {
 
@@ -21,7 +22,7 @@ public:
     void resize(int m);
     int solver (std::vector<double> &rhs, std::vector<double> &x);
     std::vector<double> multiply_vector (const std::vector<double> &v);
-    int Add_El (int i, int j, double data);
+    int Add_El (size_t i, size_t j, double data);
 
     friend class Subspace_Iteration;
 };

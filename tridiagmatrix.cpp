@@ -67,24 +67,26 @@ std::vector<double> tridiagmatrix::multiply_vector(const std::vector<double> &v)
     return x;
 }
 
-int tridiagmatrix::Add_El(int i, int j, double data) {
-    if (abs(j - i) > 1) return -1;
-    if (i > n-1 || j > n-1) return -2;
+int tridiagmatrix::Add_El(size_t i, size_t j, double data) {
+    if (abs(int(j) - int(i)) > 1) return -1;
+    else {
+        if (i > n - 1 || j > n - 1) return -2;
 
-    if (i == j) {
-        a[i] = data;
-        return 1;
-    }
-    if (i > j && j < n-1) {
-        c[i-1] = data;
-        return 2;
-    }
-    if (j > i && i < n-2) {
-        b[i] = data;
-        return 3;
-    }
+        if (i == j) {
+            a[i] = data;
+            return 1;
+        }
+        if (i > j && j < n - 1) {
+            c[i - 1] = data;
+            return 2;
+        }
+        if (j > i && i < n - 1) {
+            b[i] = data;
+            return 3;
+        }
 
-    return -3;
+        return -3;
+    }
 }
 
 

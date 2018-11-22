@@ -201,28 +201,28 @@ CMakeFiles/advanced.dir/tridiagmatrix.cpp.o.provides: CMakeFiles/advanced.dir/tr
 CMakeFiles/advanced.dir/tridiagmatrix.cpp.o.provides.build: CMakeFiles/advanced.dir/tridiagmatrix.cpp.o
 
 
-CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o: CMakeFiles/advanced.dir/flags.make
-CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o: ../ChafiInfante_equation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o -c /home/vover/CLionProjects/advanced/ChafiInfante_equation.cpp
+CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o: CMakeFiles/advanced.dir/flags.make
+CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o: ../ChafeInfante_equation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o -c /home/vover/CLionProjects/advanced/ChafeInfante_equation.cpp
 
-CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vover/CLionProjects/advanced/ChafiInfante_equation.cpp > CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.i
+CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vover/CLionProjects/advanced/ChafeInfante_equation.cpp > CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.i
 
-CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vover/CLionProjects/advanced/ChafiInfante_equation.cpp -o CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.s
+CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vover/CLionProjects/advanced/ChafeInfante_equation.cpp -o CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.s
 
-CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o.requires:
+CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o.requires:
 
-.PHONY : CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o.requires
+.PHONY : CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o.requires
 
-CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o.provides: CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o.requires
-	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o.provides.build
-.PHONY : CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o.provides
+CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o.provides: CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/advanced.dir/build.make CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o.provides.build
+.PHONY : CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o.provides
 
-CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o.provides.build: CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o
+CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o.provides.build: CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o
 
 
 # Object files for target advanced
@@ -233,7 +233,7 @@ advanced_OBJECTS = \
 "CMakeFiles/advanced.dir/math_vector.cpp.o" \
 "CMakeFiles/advanced.dir/constructionW_row.cpp.o" \
 "CMakeFiles/advanced.dir/tridiagmatrix.cpp.o" \
-"CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o"
+"CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o"
 
 # External object files for target advanced
 advanced_EXTERNAL_OBJECTS =
@@ -244,7 +244,7 @@ advanced: CMakeFiles/advanced.dir/Subspace_Iteration.cpp.o
 advanced: CMakeFiles/advanced.dir/math_vector.cpp.o
 advanced: CMakeFiles/advanced.dir/constructionW_row.cpp.o
 advanced: CMakeFiles/advanced.dir/tridiagmatrix.cpp.o
-advanced: CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o
+advanced: CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o
 advanced: CMakeFiles/advanced.dir/build.make
 advanced: CMakeFiles/advanced.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vover/CLionProjects/advanced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable advanced"
@@ -261,7 +261,7 @@ CMakeFiles/advanced.dir/requires: CMakeFiles/advanced.dir/Subspace_Iteration.cpp
 CMakeFiles/advanced.dir/requires: CMakeFiles/advanced.dir/math_vector.cpp.o.requires
 CMakeFiles/advanced.dir/requires: CMakeFiles/advanced.dir/constructionW_row.cpp.o.requires
 CMakeFiles/advanced.dir/requires: CMakeFiles/advanced.dir/tridiagmatrix.cpp.o.requires
-CMakeFiles/advanced.dir/requires: CMakeFiles/advanced.dir/ChafiInfante_equation.cpp.o.requires
+CMakeFiles/advanced.dir/requires: CMakeFiles/advanced.dir/ChafeInfante_equation.cpp.o.requires
 
 .PHONY : CMakeFiles/advanced.dir/requires
 
